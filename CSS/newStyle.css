@@ -11,13 +11,7 @@ body{
 	margin-left: 60px;
 	
 }
-.heroImage{
-	height: 500px;
-	width: 1000px;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
-}
+
 .mainImage{
 	margin-left: auto;
 	margin-right: auto;
@@ -30,7 +24,7 @@ body{
 	margin-right: auto;
 }
 p{
-	margin-right: auto,
+	margin-right: auto;
 	margin-left: auto;
 	text-align: center;
 }
@@ -63,11 +57,9 @@ legend{
 	padding: 20px;
 }
 #success_message{display: none;}
-
-.img-responsive{
-	zoom: 15%;
+.image-responsive{
+	text-align: center;
 }
-
 .client{
 	text-align: center;
 }
@@ -79,12 +71,7 @@ legend{
 	margin-right: auto;
 	
 }
-.center-block > .signature{
-	height: 100%;
-	width: auto;
-	margin-left: auto;
-	margin-right: auto;
-}
+
 .galleryButton{
 	text-align: center;
 	margin-top: 20px;
@@ -101,6 +88,7 @@ legend{
 .container{
 	margin-left: auto;
 	margin-right: auto;
+	text-align: center;
 }
 .form-horizontal{
 	width: 800px;
@@ -131,3 +119,31 @@ footer{
 .phNumber{
 	margin: 5px;
 }
+.col-sm-6{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+.heroImage{
+	max-height: 600px;
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	
+}
+p>#signatureThumbnail{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: auto;
+	background-color: black;
+	margin-top: 15px;
+}
+.thumbnail {margin-bottom:6px;}
+
+.carousel-control.left,.carousel-control.right{
+  background-image:none;
+  margin-top:10%;
+  width:5%;
+}
+form {background-color: black}
